@@ -22,7 +22,7 @@ export default function ClientImageModal({ id }: { id: string }) {
   return (
     <Dialog open={true} onOpenChange={() => router.back()}>
       <DialogContent>
-        <DialogHeader>
+     <DialogHeader>
           <DialogTitle className="text-pink-500 text-4xl">Flower For U</DialogTitle>
           <DialogDescription className="text-pink-500 text-3xl">{photo.description}</DialogDescription>
         </DialogHeader>
